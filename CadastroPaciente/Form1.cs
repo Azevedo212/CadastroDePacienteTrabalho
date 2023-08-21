@@ -47,9 +47,11 @@ namespace CadastroPaciente
             {              
                 string texto = "D:\\IFRO\\poo\\TRABALHO\\cadastroPaciente.txt"; //direcionando o arquivo txt a uma variável
 
-                //streamWriter é um método construtor e sw é o nome do objeto que estou declarando para  escrever em um arquivo de texto 
-                StreamWriter sw = File.AppendText(texto);       
+                //streamWriter é um método e sw é o nome do objeto que estou declarando para  escrever em um arquivo de texto
 
+                //StreamWriter sw = new StreamWriter(texto); //o Writer sobreescreve o arquivo txt
+
+                StreamWriter sw = File.AppendText(texto);       
                 sw.WriteLine("FICHA PACIENTE" + "\n\n");
                 sw.WriteLine("Informações Paciente \n");
                 
