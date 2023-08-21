@@ -1,0 +1,17 @@
+D:\IFRO\poo\TRABALHO\CadastroPaciente\bin\Debug\net6.0-windows\CadastroPaciente.exe
+D:\IFRO\poo\TRABALHO\CadastroPaciente\bin\Debug\net6.0-windows\CadastroPaciente.deps.json
+D:\IFRO\poo\TRABALHO\CadastroPaciente\bin\Debug\net6.0-windows\CadastroPaciente.runtimeconfig.json
+D:\IFRO\poo\TRABALHO\CadastroPaciente\bin\Debug\net6.0-windows\CadastroPaciente.dll
+D:\IFRO\poo\TRABALHO\CadastroPaciente\bin\Debug\net6.0-windows\CadastroPaciente.pdb
+D:\IFRO\poo\TRABALHO\CadastroPaciente\obj\Debug\net6.0-windows\CadastroPaciente.csproj.AssemblyReference.cache
+D:\IFRO\poo\TRABALHO\CadastroPaciente\obj\Debug\net6.0-windows\CadastroPaciente.Form1.resources
+D:\IFRO\poo\TRABALHO\CadastroPaciente\obj\Debug\net6.0-windows\CadastroPaciente.csproj.GenerateResource.cache
+D:\IFRO\poo\TRABALHO\CadastroPaciente\obj\Debug\net6.0-windows\CadastroPaciente.GeneratedMSBuildEditorConfig.editorconfig
+D:\IFRO\poo\TRABALHO\CadastroPaciente\obj\Debug\net6.0-windows\CadastroPaciente.AssemblyInfoInputs.cache
+D:\IFRO\poo\TRABALHO\CadastroPaciente\obj\Debug\net6.0-windows\CadastroPaciente.AssemblyInfo.cs
+D:\IFRO\poo\TRABALHO\CadastroPaciente\obj\Debug\net6.0-windows\CadastroPaciente.csproj.CoreCompileInputs.cache
+D:\IFRO\poo\TRABALHO\CadastroPaciente\obj\Debug\net6.0-windows\CadastroPaciente.dll
+D:\IFRO\poo\TRABALHO\CadastroPaciente\obj\Debug\net6.0-windows\refint\CadastroPaciente.dll
+D:\IFRO\poo\TRABALHO\CadastroPaciente\obj\Debug\net6.0-windows\CadastroPaciente.pdb
+D:\IFRO\poo\TRABALHO\CadastroPaciente\obj\Debug\net6.0-windows\CadastroPaciente.genruntimeconfig.cache
+D:\IFRO\poo\TRABALHO\CadastroPaciente\obj\Debug\net6.0-windows\ref\CadastroPaciente.dll
