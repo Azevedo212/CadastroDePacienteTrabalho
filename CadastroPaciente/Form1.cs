@@ -13,7 +13,7 @@ namespace CadastroPaciente
 
         private void bt_cadastrar_Click(object sender, EventArgs e)
         {
-            CadPaciente paciente = new CadPaciente();
+            CadPaciente paciente = new CadPaciente(); //metodo Construtor
 
             //Paciente informações
             paciente.Nome = tx_nome.Text;
@@ -23,7 +23,7 @@ namespace CadastroPaciente
             paciente.Sexo = tx_sexo.Text;
 
 
-            //Endereço
+            //Endereço do paciente
             paciente.Cep = tx_cep.Text;
             paciente.Estado = tx_estado.Text;
             paciente.Cidade = tx_cidade.Text;
@@ -32,23 +32,25 @@ namespace CadastroPaciente
             paciente.Bairro = tx_bairro.Text;
 
 
-            //Contato
+            //Contato do paciente
             paciente.Email = tx_email.Text;
             paciente.Telefone = tx_telefone.Text;
 
 
-            //Responsável
+            //Responsável do paciente
             paciente.Responsavel = tx_responsavel.Text;
             paciente.Cpf2 = tx_cpf2.Text;
             paciente.Celular = tx_celular.Text;
 
-            if (Validar()) //validando se os campos foram preenchidos
+
+            if (Validar()) //validando se os campos obrigatórios foram preenchidos
             {              
-                string texto = "D:\\IFRO\\poo\\TRABALHO\\cadastroPaciente.txt"; //direcionando ao arquivo txt e criando a variável
-                StreamWriter sw = File.AppendText(texto);                
+                string texto = "D:\\IFRO\\poo\\TRABALHO\\cadastroPaciente.txt"; //direcionando o arquivo txt a uma variável
+
+                //streamWriter é um método construtor e sw é o nome do objeto que estou declarando para  escrever em um arquivo de texto 
+                StreamWriter sw = File.AppendText(texto);       
 
                 sw.WriteLine("FICHA PACIENTE" + "\n\n");
-
                 sw.WriteLine("Informações Paciente \n");
                 
                 sw.WriteLine("Nome: " + paciente.Nome);
@@ -86,6 +88,7 @@ namespace CadastroPaciente
             else
             {
                 MessageBox.Show("Preencha todos os campos!!!");
+                MessageBox.Show("Os campos {Informações do paciente}, {Contato} e {Responsável} são obrigatórios!");
             }
 
         }
@@ -131,7 +134,7 @@ namespace CadastroPaciente
             tx_celular.Clear();
         }
 
-        public bool Validar() //Validação para digitar todos os campos obrigátorios
+        public bool Validar() //Método para de validação para digitar obrigar a digitar todos os campos obrigátorios
         {
             bool validacao;
 
